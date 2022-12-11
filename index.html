@@ -14,13 +14,289 @@
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./css/main.min.css" />
-</head>
+<!--header-->
+  </head>
 <body>
- <header></header> 
- <section class="about"></section>
- <section class="price"></section>
- <section class="giftset"></section>
- <section class="combo"></section>
- <footer></footer>
+ <header class="header">
+  <a class="header__logo" href="./index.html" aria-label="main page">
+    <svg width="124" height="40">
+      <use href="./images/svg/symbol-defs.svg#icon-logo">
+ </use></svg>
+  </a>
+ </header> 
+ <!--section-hero-->
+<section class="hero">
+  <div class="hero__container container">
+    <div class="hero__main-side">
+      <h1 class="hero__title">YOUR <span class="hero__title-centr">PERSONALIZED </span> COFFEE</h1>
+    </div>
+    <div class="hero__right-side">
+      <a  class="hero__icon link" href="">
+        <svg width="38" height="38">
+          <use href="./images/svg/symbol-defs.svg#icon-cart"></use>
+        </svg>
+      </a>
+      <h3 class="hero__name-list">TRANG CHỦ</h3>
+      <p class="hero__text">
+        COFFEE
+    
+        PHIN MẠ MÀU
+        
+        COMBO PHIN PHÊ
+        
+        GIFTSET
+        
+        LIÊN HỆ</p>
+    </div>
+  </div>
+</section>
+  
+<!--section-abour-->
+ <section class="about">
+  <p class="about__text text">Your Personalized Coffee</p>
+  <h2 class="about__title title">COFFEE BUILD YOUR BASE</h2>
+  <div class="container">
+    <ul class="about__list list">
+      <li class="about__item">
+        <div class="about__icon">
+        <svg width="80" height="81">
+          <use href="./images/svg/symbol-defs.svg#icon-1"></use>
+        </svg>
+      </div>
+        <h3 class="about__point point">Nguồn gốc</h3>
+        <p class="about__tex">Những hạt cà phê Arabica, Robusta đạt chất lượng theo tiêu chuẩn quốc tế.</p>
+      </li> 
+      <li class="about__item">
+        <div class="about__icon">
+        <svg width="80" height="81">
+          <use href="./images/svg/symbol-defs.svg#icon-2"></use>
+        </svg>
+      </div>
+        <h3 class="about__point point">Chất lượng</h3>
+        <p class="about__tex">Từng một hạt cà phê là cả một quá trình tập trung cao độ của nghệ nhân cà phê.</p>
+      </li>
+      <li class="about__item">
+        <div class="about__icon">
+        <svg width="80" height="81">
+          <use href="./images/svg/symbol-defs.svg#icon-3"></use>
+        </svg>
+      </div>
+        <h3 class="about__point point">Các loại hạt</h3>
+        <p class="about__tex">70% chất lượng tách cà phê đến từ nguồn gốc và chất lượng green bean.</p>
+      </li>
+      <li class="about__item">
+        <div class="about__icon">
+        <svg width="80" height="81">
+          <use href="./images/svg/symbol-defs.svg#icon-4"></use>
+        </svg>
+      </div>
+        <h3 class="about__point point">Pha chế</h3>
+        <p class="about__tex">Những hạt cà phê được lột xác qua quá trình rang xay kỹ lưỡng và nghiêm ngặt.</p>
+      </li>
+    </ul>
+  </div>
+ </section>
+<!--section-price-->
+ <section class="price">
+<div class="container">
+  <p class="price__text text">Choose Your Favorite</p>
+  <h2 class="price__title title">CHUẨN GU ĐÚNG VỊ</h2>
+<div class="price__thumb">
+  <picture>
+    <source
+    media="(min-width: 1200px)"
+    srcset="./images/price/yellow.jpg 1x, ./images/price/yellow@2x.jpg 2x "
+    type="image/jpg" 
+    />
+  <img src="./images/price/yellow.jpg" alt="revo morning" width="256" height="256" />
+  </picture>
+  <span class="price__box">
+    <p class="price-z">99.000</p>
+    <h3 class="price__name point">REVO Morning</h3>
+    <p class="price__ingrediens">đắng, hậu ngọt, hương hoa </p>
+    <button type="button" class="button price__button">MUA NGAY</button>
+    <p class="price__t btn-text">CHI TIẾT</p>
+  </span>
+</div>
+<div class="price__thumb">
+  <picture>
+    <source
+    media="(min-width: 1200px)"
+    srcset="./images/price/orange.jpg 1x, ./images/price/orange@2x.jpg 2x "
+    type="image/jpg" 
+    />
+  <img src="./images/price/orange.jpg" alt="revo origin" width="256" height="256" />
+  </picture>
+  <span class="price__box">
+    <p class="price-z">139.000</p>
+    <h3 class="price__name point">REVO Origin</h3>
+    <p class="price__ingrediens">hậu ngọt, ít đắng, vị chua dâu </p>
+    <button type="button" class="button price__button">MUA NGAY</button>
+    <p class="price__t btn-text">CHI TIẾT</p>
+  </span>
+</div>
+<div class="price__thumb">
+  <picture>
+    <source
+    media="(min-width: 1200px)"
+    srcset="./images/price/blue.jpg 1x, ./images/price/blue@2x.jpg 2x "
+    type="image/jpg" 
+    />
+  <img src="./images/price/blue.jpg" alt="revo everyday" width="256" height="256" />
+  </picture>
+  <span class="price__box">
+    <p class="price-z">85.000</p>
+    <h3 class="price__name point">REVO Everyday</h3>
+    <p class="price__ingrediens">cân bằng, hậu đắng, vị chocolate  </p>
+    <button type="button" class="button price__button">MUA NGAY</button>
+    <p class="price__t btn-text">CHI TIẾT</p>
+  </span>
+</div>
+<div class="price__thumb">
+  <picture>
+    <source
+    media="(min-width: 1200px)"
+    srcset="./images/price/braun.jpg 1x, ./images/price/braun@2x.jpg 2x "
+    type="image/jpg" 
+    />
+  <img src="./images/price/braun.jpg" alt="revo dam da" width="256" height="256" />
+  </picture>
+  <span class="price__box">
+    <p class="price-z">75.000</p>
+    <h3 class="price__name point">REVO Đậm Đà</h3>
+    <p class="price__ingrediens">đậm đà, đắng, truyền thống </p>
+    <button type="button" class="button price__button">MUA NGAY</button>
+    <p class="price__t btn-text">CHI TIẾT</p>
+  </span>
+</div>
+<div class="price__thumb">
+  <img  class="price__img" src="" alt="">
+  <span class="price__box">
+    <p class="price-z"></p>
+    <h3 class="price__name point"></h3>
+    <p class="price__ingrediens"> </p>
+    <button type="button" class="button price__button"></button>
+    <p class="price__t"></p>
+  </span>
+</div>
+<div class="price__thumb">
+  <img  class="price__img" src="" alt="">
+  <span class="price__box">
+    <p class="price-z"></p>
+    <h3 class="price__name point"></h3>
+    <p class="price__ingrediens"> </p>
+    <button type="button" class="button price__button"></button>
+    <p class="price__t"></p>
+  </span>
+</div>
+<button class="button__slide slide" type="button"></button>
+</div>
+ </section>
+ <!--section-giftset-->
+ <section class="giftset">
+  <div class="container">
+    <p class="giftset__text text">Best Gift For Best Friend</p>
+    <h2 class="giftset__title title">GIFTSET</h2>
+    <div class="giftset__thumb">
+      <picture>
+      <source
+      media="(min-width: 1200px)"
+      srcset="./images/giftset/giftset.jpg 1x, ./images/giftset/giftset@2x.jpg 2x "
+      type="image/jpg" 
+      />
+    <img src="./images/giftset/giftset.jpg" alt="giftset" width="463" height="416" />
+    </picture>
+      <span class="giftset__box">
+        <p class="price-z">285.000</p>
+        <h3 class="giftset__name point">Giftset "Cà phê phin Việt Nam"</h3>
+        <p class="giftset__text">Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê
+           được Revo cẩn trọng chọn lựa, rang xay theo công nghệ và bí quyết học hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự đam mê của người làm cà phê… tạo ra những tách cà phê tinh khiết chỉ dành riêng cho bạn.</p>
+        <svg width="26" height="26">
+          <use href="./images/svg/symbol-defs.svg#icon-coffee"></use>
+        </svg>
+        <p class="giftset__ingr">Loại hạt
+          Fine Robusta Blend</p>
+        <svg width="26" height="26">
+          <use href="./images/svg/symbol-defs.svg#icon-mountain"></use>
+        </svg>
+        <p class="giftset__ingr">Độ cao
+          700 - 800m</p>
+        <button class="button geftset__btn" type="button">MUA NGAY</button>
+        <p class="geftset__t btn-text">CHI TIẾT</p>
+      </span>
+      <ul class="giftset__slide">
+        <li><a href="">1</a></li>
+        <li><a href="">2</a></li>
+        <li><a href="">3</a></li>
+      </ul>
+    </div>
+  </div>
+ </section>
+ <!--section-combo-->
+ <section class="combo">
+<p class="combo__text text">Your Personalized Coffee</p>
+<h2 class="combo__title title">COMBO PHIN PHÊ</h2>
+<ul class="list combo__list">
+  <li class="combo__item">
+    <div>
+      <picture>
+        <source media="(min-width: 1200px)"
+        srcset="./images/set/braun-set.jpg 1x, ./images/set/braun-set@2x.jpg 2x "
+        type="image/jpg" />
+      <img src="./images/set/braun-set.jpg" alt="braun-set" width="349" height="349" />
+      </picture>
+      <span class="combo__price">
+        <p class="price-z"></p>
+        <p class="price-x"></p>
+      </span>
+      <h3 class="point combo__point"></h3>
+      <p class="combo__tex "></p>
+      <button type="button" class="button combo-btn">MUA NGAY</button>
+      <p>CHI TIẾT</p>
+    </div>
+  </li>
+  <li class="combo__item">
+    <div>
+      <picture>
+        <source media="(min-width: 1200px)"
+        srcset="./images/set/blue-set.jpg 1x, ./images/set/blue-set@2x.jpg 2x "
+        type="image/jpg" />
+      <img src="./images/set/blue-set.jpg" alt="blue-set" width="349" height="349" />
+      </picture>
+      <span class="combo__price">
+        <p class="price-z"></p>
+        <p class="price-x"></p>
+      </span>
+      <h3 class="point combo__point"></h3>
+      <p class="combo__tex "></p>
+      <button type="button" class="button combo-btn">MUA NGAY</button>
+      <p>CHI TIẾT</p>
+    </div>
+  </li>
+  <li class="combo__item">
+    <div>
+      <picture>
+        <source media="(min-width: 1200px)"
+        srcset="./images/set/red-set.jpg 1x, ./images/set/red-set@2x.jpg 2x "
+        type="image/jpg" />
+      <img src="./images/set/red-set.jpg" alt="red-set" width="349" height="349" />
+      </picture>
+      <span class="combo__price">
+        <p class="price-z"></p>
+        <p class="price-x"></p>
+      </span>
+      <h3 class="point combo__point"></h3>
+      <p class="combo__tex "></p>
+      <button type="button" class="button combo-btn">MUA NGAY</button>
+      <p>CHI TIẾT</p>
+    </div>
+  </li>
+</ul>
+<button type="button" class="combo__slide slide"></button>
+ </section>
+ <!--footer-->
+ <footer class="footer">
+  <p class="footer__text">© Revo Coffee Việt Nam - 2018</p>
+ </footer>
 </body>
 </html>
