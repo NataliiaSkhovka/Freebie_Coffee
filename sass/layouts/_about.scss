@@ -1,5 +1,14 @@
 .about{
   @extend %section;
 
-  
+  &__list{
+    display: flex;
+    align-items: center;
+    --items:4;
+  }
+
+  &__point{
+    margin-top: 45px;
+    margin-bottom: 12px;
+  }
 }
