@@ -1,0 +1,39 @@
+.about{
+  @extend %section;
+
+  &__list{
+    display: flex;
+    align-items: center;
+    --items:4;
+  }
+
+  &__point{
+    margin-top: 45px;
+    margin-bottom: 12px;
+ 
+  }
+
+  &__icon{
+    
+  content: '';
+  width: 114px;
+  height: 114px;
+  margin-bottom: 25px;
+  }
+
+  &__item{
+  display: block;
+  }
+
+  &__item:not(:last-child){
+    margin-right: 66px;
+  }
+
+  &__text{
+    margin-bottom: 9px;
+  }
+
+  &__title{
+    margin-bottom: 72px;
+  }
+}

@@ -8,116 +8,11 @@
 
 
 
-layouts
 
 
-.about{
-  @extend %section;
 
-  &__list{
-    display: flex;
-    align-items: center;
-    --items:4;
-  }
 
-  &__point{
-    margin-top: 45px;
-    margin-bottom: 12px;
- 
-  }
 
-  &__icon{
-    
-  content: '';
-  width: 114px;
-  height: 114px;
-  margin-bottom: 25px;
-  }
 
-  &__item{
-  display: block;
-  }
 
-  &__item:not(:last-child){
-    margin-right: 66px;
-  }
 
-  &__text{
-    margin-bottom: 9px;
-  }
-
-  &__title{
-    margin-bottom: 72px;
-  }
-}
-.footer{
-  padding-top: 18px;
-  padding-bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-&__text{
-font-family: 'Nunito';
-font-size: 16px;
-line-height: 1.38;
-
-color: #415167;
-}
-}
-
-.hero{
-  @extend %section;
-  
-  //  text-align: center;
-  //  padding: 118px 0;
-   max-width: 1400px;
-   margin-left: auto;
-   margin-right: auto;
-   background-repeat: no-repeat;
-  //  background-position: center;
-  //  background-size: cover;
-   background-color: var(#F9F5E8);
-  //  background-image:
-}
-@import "./header";
-@import "./hero";
-@import "./about";
-@import "./price";
-@import "./giftset";
-@import "./combo";
-@import "./footer";
-
-utils
-@import "./vars";
-@import "./visualy-hiden";
-
-:root {
-  --main-font: 'Montserrat';
-  --secondary-font: 'Nunito';
-  --accent-bgr-color: #F2F2F2;
-  --second-bgr-color:#EDF0F5;
-  --primery-color: #415167;
-  --accent-color: #C7A17A;
-  --second-accent-color: #F9F5E8;
-  --title-text-color: #232C38;
-  --main-text-color: #151D28;
-
-  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  --indent: 30px;
-  --items: 3;
-}
-
-.visually-hidden {
-	position: absolute;
-	white-space: nowrap;
-	width: 1px;
-	height: 1px;
-	overflow: hidden;
-	border: 0;
-	padding: 0;
-	clip: rect(0 0 0 0);
-	clip-path: inset(50%);
-	margin: -1px;
-}
