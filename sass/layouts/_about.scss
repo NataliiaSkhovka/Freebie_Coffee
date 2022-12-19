@@ -15,14 +15,15 @@
 
   &__icon{
     
-content: '';
-width: 114px;
-height: 114px;
-margin-bottom: 25px;
+  content: '';
+  width: 114px;
+  height: 114px;
+  margin-bottom: 25px;
   }
-&__item{
+
+  &__item{
   display: block;
-}
+  }
 
   &__item:not(:last-child){
     margin-right: 66px;
